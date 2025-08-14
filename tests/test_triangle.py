@@ -1,7 +1,4 @@
-import sys
-sys.path.append("../")
-
-from mygeopy.mygeopy.triangle import *
+from mygeopy.triangle import *
 
 def test_hypot():
     assert hypot(3, 4) == 5
